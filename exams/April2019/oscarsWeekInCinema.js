@@ -1,8 +1,8 @@
 function oscarsWeekInCinema(input) {
 
-    let movieName = input.shift();
-    let roomType = input.shift();
-    let boughtTickets = Number(input.shift());
+    let movieName = (input[0]);
+    let roomType = (input[1]);
+    let boughtTickets = Number(input[2]);
     let ticketPrice = 0;
     let totalMoney = 0;
 

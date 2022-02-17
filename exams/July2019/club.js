@@ -26,8 +26,6 @@ function club(input) {
     console.log(`We need ${diffMoney.toFixed(2)} leva more.`);
     console.log(`Club income - ${totalMoney.toFixed(2)} leva.`);
 
-
-
 }
 club(["100",
     "Sidecar",
